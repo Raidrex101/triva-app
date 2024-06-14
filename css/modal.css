@@ -1,0 +1,384 @@
+@media only screen and (min-width: 280px) and (max-width: 1024px){
+    #modal1 {
+        height: 52vh;
+        width: 50vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal1 p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: larger;
+        font-size: 1.3em;
+    }
+}
+
+@media  only screen and (min-width: 1025px) and (max-width: 1300px){
+    #modal1 {
+        height: 60vh;
+        width: 30vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal1 p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.2em;
+    }
+    
+}
+
+@media  only screen and (min-width: 1301px) {
+    #modal1 {
+        height: 72vh;
+        width: 20vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal1 p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.5em;
+    }
+    
+}
+
+                                        /* MODAL 2 */
+
+@media only screen and (min-width: 280px) and (max-width: 1024px){
+    #modal2 {
+        height: 45vh;
+        width: 50vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal2 p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: larger;
+        font-size: 1.3em;
+    }
+
+    #modal2 img {
+        height: 30vh;
+        width: 41vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media  only screen and (min-width: 1025px) and (max-width: 1300px){
+    #modal2 {
+        height: 45vh;
+        width: 30vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal2 p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.2em;
+    }
+
+    #modal2 img {
+        height: 30vh;
+        width: 26.5vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+}
+
+@media  only screen and (min-width: 1301px) {
+    #modal2 {
+        height: 50vh;
+        width: 20vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal2 p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.5em;
+    }
+    
+    #modal2 img {
+        height: 30vh;
+        width: 18vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+
+/* --------------------------- Modal correcto --------------------------- */
+
+@media only screen and (min-width: 280px) and (max-width: 1024px){
+    #modal_correct_answer {
+        height: 45vh;
+        width: 80vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_correct_answer p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: larger;
+        font-size: 1.3em;
+    }
+
+    #modal_correct_answer img {
+        height: 30vh;
+        width: 70vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media  only screen and (min-width: 1025px) and (max-width: 1300px){
+    #modal_correct_answer {
+        height: 45vh;
+        width: 30vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_correct_answer p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.2em;
+    }
+
+    #modal_correct_answer img {
+        height: 30vh;
+        width: 26.5vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+}
+
+@media  only screen and (min-width: 1301px) {
+    #modal_correct_answer {
+        height: 50vh;
+        width: 17vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_correct_answer p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.5em;
+    }
+    
+    #modal_correct_answer img {
+        height: 30vh;
+        width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+/* --------------------------- Modal incorrecto --------------------------- */
+
+@media only screen and (min-width: 280px) and (max-width: 1024px){
+    #modal_incorrect_answer {
+        height: 45vh;
+        width: 50vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_incorrect_answer p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: larger;
+        font-size: 1.3em;
+    }
+
+    #modal_incorrect_answer img {
+        height: 30vh;
+        width: 41vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media  only screen and (min-width: 1025px) and (max-width: 1300px){
+    #modal_incorrect_answer {
+        height: 45vh;
+        width: 30vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_incorrect_answer p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.2em;
+    }
+
+    #modal_incorrect_answer img {
+        height: 30vh;
+        width: 26.5vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+}
+
+@media  only screen and (min-width: 1301px) {
+    #modal_incorrect_answer {
+        height: 50vh;
+        width: 20vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_incorrect_answer p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.5em;
+    }
+    
+    #modal_incorrect_answer img {
+        height: 30vh;
+        width: 18vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+/* --------------------------- Modal final --------------------------- */
+
+@media only screen and (min-width: 280px) and (max-width: 1024px){
+    #modal_final {
+        height: 54vh;
+        width: 50vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_final p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: larger;
+        font-size: 1.3em;
+    }
+
+    #modal_final img {
+        height: 30vh;
+        width: 41vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #modal_final button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media  only screen and (min-width: 1025px) and (max-width: 1300px){
+    #modal_final {
+        height: 58vh;
+        width: 30vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_final p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.2em;
+    }
+
+    #modal_final img {
+        height: 30vh;
+        width: 26.5vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #modal_final button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+}
+
+@media  only screen and (min-width: 1301px) {
+    #modal_final {
+        height: 62vh;
+        width: 23vw;
+        justify-content: center;
+        border: .2em, black, solid;
+        text-align: center;
+        background: radial-gradient(circle farthest-corner at 10% 20%, rgb(206, 71, 233) 17.8%, rgb(247, 150, 200) 100.2%)
+    }
+    
+    #modal_final p {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-size: larger;
+        font-size: 1.5em;
+    }
+    
+    #modal_final img {
+        height: 30vh;
+        width: 18vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #modal_final button {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

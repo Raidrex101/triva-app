@@ -1,0 +1,128 @@
+html,
+body {
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgb(255, 255, 255) 17.8%, rgb(246, 84, 252) 100.2%);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 1024px) {
+    #options {
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 60vh;
+        width: 90vw;
+        margin-top: 6rem;
+        border: .2em, black, solid;
+        border-radius: 20px;
+        background: transparent;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    #options {
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 60vh;
+        width: 40vw;
+        margin-top: 6rem;
+        border: .2em, black, solid;
+        border-radius: 20px;
+        background: transparent;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+    #options {
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 60vh;
+        width: 25vw;
+        margin-top: 6rem;
+        border: .2em, black, solid;
+        border-radius: 20px;
+        background: transparent;
+    }
+}
+
+select {
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgb(207, 102, 233) 17.8%, rgb(213, 40, 128) 100.2%);
+    border: .1em, black, solid;
+    
+}
+option {
+    padding: 5rem; 
+  }
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 2em;
+}
+
+#mchoice {
+    background-color: rgb(201, 33, 207);
+    height: 5em;
+    width: 10em;
+}
+
+#tof {
+    background-color: yellow;
+    height: 5em;
+    width: 10em;
+}
+
+
+#choices {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#choices button {
+    border: .1em, black, solid;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#dificulty button {
+    border: .1em, black, solid;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+#comenzar {
+    margin-top: 3rem;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: flex;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styless.css">
+    <link rel="stylesheet" href="./css/preguntas.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./main.js" defer></script>
+    <title>Trivia</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="options" class="mostrar">
+
+            <h1 class="text-[2.5rem]">Trivia</h1>
+
+            <form action="">
+
+                <label>Category</label>
+                <select id="selectCategories">
+                    <option disabled selected value="0">Select a category</option>
+                </select>
+
+                <label>Select Type</label>
+                <div id="choices">
+                    <button
+                        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                        id="mchoice">MULTIPLE CHOICE</button>
+                    <button
+                        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                        id="tof">TRUE / FALSE</button>
+                </div>
+                <label>Dificulty</label>
+                <div id="dificulty">
+
+                    <button
+                        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                        id="easy">EASY</button>
+                    <button
+                        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                        id="medium">MEDIUM</button>
+                    <button
+                        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+                        id="hard">HARD</button>
+                </div>
+
+                <div id="comenzar">
+                    <button type="submit"
+                        class="cursor-pointer text-white font-bold shadow-md hover:scale-[1.2] shadow-purple-400 rounded-full px-5 py-2 bg-gradient-to-bl from-purple-500 to-purple-800"
+                        id="start">START THE TRIVIA</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div id="question" class="ocultar">
+            <div id="pregunta">
+                <img src="./img/cat-question.png" alt="">
+                <h1 id="datoPregunta"></h1>
+            </div>
+                
+            <div id="contAnsowers">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <dialog id="modal1">
+        <P>No encopntramos resultados a sus peticiones</P>
+        <p>Por favor seleccione opciones distintas</p>
+        <img src="./img/loading.gif" alt="">
+    </dialog>
+
+    <dialog id="modal2">
+        <P>Por favor seleccione una categoria</P>
+        <img src="./img/cat-what.gif">
+    </dialog>
+
+    <dialog id="modal_correct_answer">
+        <P>Correct answer!</P>
+        <img src="./img/correctAnsower.gif">
+    </dialog>
+
+    <dialog id="modal_incorrect_answer">
+        <P>incorrect answer</P>
+        <img src="./img/badAnsower.gif">
+    </dialog>
+
+    <dialog id="modal_final">
+        <P>Final de la trivia</P>
+        <div id="contResult"></div>
+        <img src="./img/cool-fun.gif">
+        <button id="finalTrivia"
+        class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
+        >Finalizar</button>
+    </dialog>
+
+</body>
+
+</html>
